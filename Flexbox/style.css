@@ -1,0 +1,23 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: darkgray;
+    width: 1200px;
+    height: 1200px;
+}
+
+.enfant:nth-child(odd) {
+    background-color: brown;
+}
+.enfant:nth-child(even) {
+    background-color: darkgreen;
+}
+
+.enfant {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+}
